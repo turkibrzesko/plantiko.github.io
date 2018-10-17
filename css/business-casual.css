@@ -72,6 +72,21 @@ p {
   margin-bottom: 5rem;
 }
 
+.table-products .thead-dark th {
+    background-color: darkgreen !important;
+}
+
+.table-products {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: antiquewhite;
+}
+
+.table-1col {
+    font-weight: 500;
+}
+
+
 .section-heading {
   text-transform: uppercase;
 }
@@ -93,10 +108,11 @@ p {
 }
 
 #mainNav {
-  background-color: #0e0b16;
+  background-color: whitesmoke;
   font-family: 'Raleway';
-  border-top: 1px solid white;
-  border-bottom: 2px solid white;
+  border-top: 2px solid #007849;
+  border-bottom: 2px solid #007849;
+  text-align: center;
 }
 
 #mainNav .navbar-brand {
@@ -104,14 +120,15 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: rgba(255, 255, 255, 1);
-  font-size: 1.1em !important;
-  font-weight: 400;
-  text-shadow: 0.05em 0.05em black;
+  color: #007849;
+  font-size: 1.05em !important;
+  font-weight: 700;
+  /* text-shadow: 0.05em 0.05em black; */
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #808080;
+  color: white;
+  background-color: #007849 !important;
 }
 
 @media (min-width: 992px) {
@@ -119,12 +136,70 @@ p {
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: rgba(255, 255, 255, 0.4);
+    color: white;
+    background-color: #007849 !important;
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: rgb(71, 71, 72);
+    color: white;
+    background-color: #007849 !important;
   }
 }
+
+/* dropdown menu fix */
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 80%; /* Bottom of button */
+  left: 30%;
+  text-align: center;
+  background-color: whitesmoke;
+  font-family: 'Raleway';
+  border-top: 2px solid #007849;
+  border-bottom: 2px solid #007849;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* zdjecie z tekstem ogrodnicze */
+
+.img-top-products {
+    margin-top: 40px;
+}
+
+.img-products {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-products img{
+    width: 80%;
+    height: auto;
+}
+
+.text-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100px;
+    color: white;
+}
+
+.text-image p {
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    margin-top: 5px;
+}
+
+/* Koniec zdjecia */
 
 .btn-xl {
   font-weight: 700;
