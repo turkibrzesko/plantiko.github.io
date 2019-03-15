@@ -23,6 +23,12 @@
       "css": "map-signs",
       "code": 62071,
       "src": "fontawesome"
+    },
+    {
+      "uid": "40177cc6c35597ea3422673689409152",
+      "css": "envira",
+      "code": 62105,
+      "src": "fontawesome"
     }
   ]
 }

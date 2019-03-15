@@ -5,7 +5,7 @@
  */
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.65)), url("../img/bg.png");
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.65)), url("../img/bg.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
@@ -26,19 +26,15 @@ p {
 }
 
 .bigpic { 
-    /* Pozycjonowanie pod navbar */
-    
-    /* The image used */
-    /*  background-image: url("../img/qbkls.png");
-    background-repeat: repeat; */
-
     background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .logo {
     position: relative;
     left: 40%;
-    margin-left: -95px !important;  /* 50% of your logo width */
+    margin-left: -150px !important;  /* 50% of your logo width */
     display: block;
     width: 500px;
 }
@@ -145,6 +141,16 @@ p {
   }
 }
 
+/* navbar toggler icon */
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,120,73, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgb(0,120,73, 0.5);
+} 
+
 /* dropdown menu fix */
 
 .dropdown-container {
@@ -241,7 +247,6 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #007849;
 }
 
 .cta .cta-inner {
@@ -320,10 +325,6 @@ p {
   font-size: 1.2rem;
 }
 
-.footer {
-  background-color: rgba(47, 23, 15, 0.9);
-}
-
 .text-primary {
   color: #e6a756 !important;
 }
@@ -348,4 +349,134 @@ p {
 
 .font-weight-light {
   font-weight: 100 !important;
+} 
+
+.footer {
+  background-color: #007849;
+  color: white;
+  border-top: 5px solid white;
+  padding: 20px;
+  margin-top: 20px;
 }
+
+.footer-copyright {
+    padding-top: 20px;
+}
+
+.dark-grey-text {
+    text-decoration: none !important;
+    color: white;
+}
+
+.dark-grey-text:hover {
+    text-decoration: underline !important;
+    color: white !important;
+}
+
+con-bg {
+    background-color: white;
+}
+
+/* Sklep lista dd i dt */
+
+.dt .dt-sklep {
+    font-weight: 500 !important;
+}
+
+/* Sklep nowy layout 
+
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h3{
+    color: #007849;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #007849;
+    font-size: 20px;
+    font-weight: 400;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    width: 60%;
+} */
+
+.bg-list {
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 81%, rgba(237,237,237,1) 100%);
+    padding: 20px;
+    border: 5px double #007849;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 5px 23px -8px rgba(0,0,0,0.18);
+}
+
+/* IMG druga wersja */
+
+
+.lista {
+    padding: 5%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.lista .heading {
+    color: white;
+    background-color: #007849;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 31px;
+    margin-top: 20px;
+}
+
+
+.lista .subheading {
+    color: #007849;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 40px;
+    border: 10px;
+   /* height: 200px; */
+}
+
+.lista .subheading span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.shop-foto 
+{
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    height: auto;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.listek {
+    font-size: 15px;
+}
+
+
+/* .lista i {
+    font-size: 13px;
+} */

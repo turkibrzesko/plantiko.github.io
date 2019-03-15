@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg">
-<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
 <defs>
 <font id="fontello" horiz-adv-x="1000" >
 <font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
@@ -11,6 +11,8 @@
 <glyph glyph-name="phone-outline" unicode="&#xe801;" d="M964 733q31-31 52-74t27-109-12-137-74-163-149-185q-237-237-454-237-134 0-215 81l-93 93q-46 46-46 111t46 110l83 83q46 46 110 46t110-46l72-71 218 216-73 72q-46 47-46 111t46 111l83 82q45 45 111 45 65 0 110-45z m-324-62q-15-15-15-37t15-37l56-56 157 156-57 56q-15 15-36 15-22 0-37-15z m-521-595l57-56 157 156-58 56q-15 15-36 15t-36-15l-84-82q-15-15-15-37t15-37z m615 62q81 82 130 159t64 133 11 105-17 78-32 47l-156-157 15-15q15-15 15-37t-15-36l-291-292q-15-15-37-15-22 0-37 15l-15 17-156-158q50-50 141-50 174 0 380 206z" horiz-adv-x="1044" />
 
 <glyph glyph-name="map-signs" unicode="&#xf277;" d="M974 684q5-5 5-13t-5-12l-79-79q-15-16-38-16h-750q-14 0-25 11t-11 25v143q0 14 11 25t25 11h322v35q0 15 10 25t25 11h72q14 0 25-11t10-25v-35h286q23 0 38-16z m-545-513h142v-285q0-15-10-25t-25-11h-72q-14 0-25 11t-10 25v285z m464 250q14 0 25-10t11-25v-143q0-15-11-25t-25-11h-750q-22 0-38 16l-79 79q-5 5-5 12t5 13l79 79q16 15 38 15h286v108h142v-108h322z" horiz-adv-x="1000" />
+
+<glyph glyph-name="envira" unicode="&#xf299;" d="M500 395q-58 109-89 155-78 113-194 177-19 11-39 20-50 23-52 18t19-21l21-17q35-24 63-52t53-65 39-64 40-73q5-9 7-14 24-46 47-85t54-86 65-84 73-69 83-50q85-37 86-33 0 1-28 20-29 20-45 32-43 32-100 118t-103 173z m-194-303q-42 33-74 69t-54 81-40 86-32 104-29 116-34 141-43 161q152 0 278-20t211-51 151-81 104-96 61-111 32-111 7-111-6-97-11-80-7-59l180-183h-58l-157 159q-12-1-51-8t-68-10-77-4-89 10-94 33-100 62z" horiz-adv-x="1000" />
 </font>
 </defs>
 </svg>
