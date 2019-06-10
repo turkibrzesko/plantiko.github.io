@@ -480,3 +480,23 @@ con-bg {
 /* .lista i {
     font-size: 13px;
 } */
+
+
+/* Uslugi podstrona */
+
+.container-uslugi {
+    margin-top: 30px;
+}
+
+.photo-uslugi {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0px;
+    margin: 15px;
+}
+
+.photo-uslugi-text {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+}
