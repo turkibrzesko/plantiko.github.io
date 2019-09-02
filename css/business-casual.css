@@ -436,9 +436,10 @@ con-bg {
     color: white;
     background-color: #007849;
     border-radius: 5px;
-    font-weight: bold;
-    font-size: 31px;
+    font-weight: 400;
+    font-size: 28px;
     margin-top: 20px;
+    padding: 5px;
 }
 
 
@@ -499,4 +500,25 @@ con-bg {
     text-align: center;
     vertical-align: middle;
     background-color: white;
+}
+
+/* Uslugi text */
+.container-uslugi-text {
+    color: white;
+    margin-top: 30px;
+    font-family: Raleway; 
+}
+
+.container-uslugi-text p {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.text-opis {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #007849;
 }
