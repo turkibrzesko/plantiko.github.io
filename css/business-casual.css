@@ -40,13 +40,13 @@ p {
 }
 
 
-
+/*testy*/
 @media only screen and (max-width: 767px) {
 .logo {
     left: 40%;
-    margin-left: -105px !important;
+    margin-left: -50px !important;
     display: block;
-    width: 300px;
+    width: 200px;
 }
 }
 
