@@ -39,6 +39,20 @@ p {
     width: 500px;
 }
 
+
+
+@media only screen and (max-width: 767px) {
+.logo {
+    left: 40%;
+    margin-left: -150px !important;
+    display: block;
+    width: 400px;
+}
+}
+
+
+
+
 .text-faded {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -197,6 +211,17 @@ p {
     height: 100px;
     color: white;
 }
+
+
+@media only screen and (max-width: 767px) {
+.text-image {
+    height: 70px;
+    font-size: 10px;
+    padding-top: 2px;
+}
+}
+
+
 
 .text-image p {
     font-family: 'Lato', sans-serif;
