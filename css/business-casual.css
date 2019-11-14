@@ -547,3 +547,27 @@ con-bg {
     border-radius: 10px;
     border: 1px solid #007849;
 }
+
+/* icon follow FB */
+.icon-follow {
+    display: block;
+    color: white;
+    font-size: 29px;
+    line-height: 35px;
+}
+
+.icon-follow:hover { 
+    font-size: 32px;
+}
+
+.icon-followB {
+    display: block;
+    color: blue;
+    font-size: 40px;
+    line-height: 45px;
+    margin-top: 15px;
+}
+
+.icon-followB:hover { 
+    font-size: 43px;
+}
